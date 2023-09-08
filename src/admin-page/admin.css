@@ -1,0 +1,78 @@
+*{
+    border:none;
+    margin:none;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgb(2,0,36);
+    background: linear-gradient(128deg, rgba(2,0,36,1) 0%, rgba(121,9,9,1) 32%, rgba(0,212,255,1) 80%);
+}
+.container{
+    padding:20px;
+    height:600px;
+    width:400px;
+    background-color: white;
+    border-radius: 30px;
+    font-size: 16px;
+    display:felx;
+    align-items: center;
+    flex-direction: column;
+}
+
+.heading{
+    padding:20px;
+    color:aqua;
+    text-decoration: underline;
+    text-decoration-color: brown;
+}
+
+.input{
+    flex:1;
+    padding:20px;
+    margin:30px;
+    width:80%;
+    outline:none;
+    border-radius: 30px;
+    background-color: rgba(67, 67, 196, 0.425);
+    text-align: center;
+}
+
+.submit{
+    margin-top:30px;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    gap:30px;
+}
+
+.forgot-password{
+    display: block;
+}
+.button{
+    padding:10px 20px 10px 20px;
+    outline:none;
+    border:20px;
+    border-radius:20px;
+    cursor: pointer;
+}
+
+.orange{
+    background-color: orangered;
+    color:white;
+    padding:10px 20px 10px 20px;
+    outline:none;
+    border:20px;
+    border-radius:20px;
+    cursor: pointer;
+}
+
+.none{
+    display:none;
+}
+
+
+
+
+
